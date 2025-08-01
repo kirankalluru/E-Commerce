@@ -8,7 +8,7 @@ import Orders from './pages/Orders'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Login from './pages/Login'
-import PlaceOreder from './pages/PlaceOreder'
+import PlaceOrder from './pages/PlaceOreder'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import SearchBar from './Components/SearchBar'
@@ -30,7 +30,7 @@ const App = () => {
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Order' element={<Orders/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/PlaceOrder' element={<PlaceOreder/>}/>
+        <Route path='/PlaceOrder' element={<PlaceOrder/>}/>
         
       </Routes>
       <Footer/>

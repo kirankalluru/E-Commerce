@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Prata&family=Snowburst+One&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: Outfit;
+}
+.active{
+    background-color: rgb(250, 185, 196);
+    border-color: beige;
+}
