@@ -5,11 +5,12 @@ import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
 
 export const ShopContext = createContext();
+export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+
 
 const ShopContextProvider = (props) => {
     const currency = '$'
     const delivery_fee = 10;
-    const backendUrl = "http://localhost:4000"
     const [search,setSearch] = useState('');
     const [showSearch,setShowSearch] = useState(false);
     const [cartItems,setCartItems] = useState({})
